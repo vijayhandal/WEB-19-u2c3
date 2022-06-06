@@ -1,0 +1,68 @@
+/* Fill CSS here */
+div{
+    display: flex;
+    justify-content: space-around;
+}h1{
+    color: #0567ab;
+    text-align: center;
+
+}
+form{   
+    margin:auto;
+    margin-top: 50px;  
+    margin-right: 20px; 
+    width: 30%;
+    box-shadow: gray;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    
+}
+label{
+    font-size: 100%;
+}
+table{
+    /* width: 60%; */
+    
+    margin: auto;
+    margin-top: 50px;
+    text-align: center;
+}
+table th{
+    padding: 10px;
+    text-align: center;
+    background-color: #0567ab;
+    color: white;
+}
+    
+*{
+    box-sizing:border-box;
+}
+input[type="submit"]{
+    border-radius: 16px;
+    width: 100%;
+    padding: 7px 10px;
+    border: transparent;
+    color: white;
+    background-color: #0567ab;
+    font-size: 20px;
+    /* margin-bottom: 20px; */
+}
+input{
+    width: 98%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}#department{
+    width: 98%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding: 5px;
+}td{
+    /* border: 1px solid; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 2px;
+    padding: 5px;
+}tr:nth-child(even){
+    background-color: #bad6e9;
+    /* color: white; */
+}
